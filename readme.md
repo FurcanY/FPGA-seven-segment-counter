@@ -32,6 +32,10 @@
 
 
 
+https://github.com/user-attachments/assets/3adf131c-9c19-4c6f-86dd-c4036b266b41
+
+
+
 ## Projeden Öğrendiklerim
 - Metastabiliteyi önlemek → 2 kademeli synchronizer ile buton/reset girişlerini senkronize etmek
 - Clock kullanımı → 12 MHz sistem saatini clock divider ile ~60 Hz’e indirerek çoklamalı display’i çalıştırmak
