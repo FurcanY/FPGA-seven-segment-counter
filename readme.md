@@ -3,8 +3,6 @@
 **Basit bir FPGA projesi:** 0'dan 999'a kadar sayan, ortak-anotlu 3 haneli 7 segment display kullanan sayıcı.
 
 
-
-
 ## Dosyalar
 - Counter.v – Ana modül
 - clock_divider.v – 12 MHz → ~60 Hz bölücü (parametrik)
@@ -15,13 +13,19 @@
 - **Reset:** Sıfırlama
 - **Multiplexing:** 3 hane sırayla yakılarak gösterilir (~180 Hz)
 
+
+
+
 | Sinyal        | FPGA Pini (Cmod A7) | Açıklama              |
 | ------------- | ------------------- | --------------------- |
-| `btn`         | JB1 (SW1)           | Sayaç artır           |
-| `rst`         | JB2 (SW2)           | Reset                 |
-| `sysclk`      | A7                  | 12 MHz osilatör       |
-| `data[6:0]`   | C1-C7               | Seven segment verileri |
-| `select[2:0]` | A1-A3               | Segment seçimi           |
+| `btn`         | A18           | Sayaç artır           |
+| `rst`         | B18           | Reset                 |
+| `sysclk`      | L17                  | 12 MHz osilatör       |
+| `data[6:0]`   | L3-A16-K3-C15-M3-H1-A15 | Seven segment verileri |
+| `select[2:0]` | B15-A14-J3              | Segment seçimi           |
+
+  ## Utilization
+  <img width="525" height="277" alt="image" src="https://github.com/user-attachments/assets/02677018-ec7d-4eb4-b229-4ae0e5a01245" />
 
 ---
 
