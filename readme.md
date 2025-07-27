@@ -3,6 +3,7 @@
 **Basit bir FPGA projesi:** 0'dan 999'a kadar sayan, ortak-anotlu 3 haneli 7 segment display kullanan sayıcı.
 
 
+
 ## Dosyalar
 - Counter.v – Ana modül
 - clock_divider.v – 12 MHz → ~60 Hz bölücü (parametrik)
@@ -38,7 +39,7 @@
 
 https://github.com/user-attachments/assets/3adf131c-9c19-4c6f-86dd-c4036b266b41
 
-
+<img width="1106" height="474" alt="image" src="https://github.com/user-attachments/assets/e5f55b0e-b9a3-4d60-aa8e-6fa588e6aec6" />
 
 ## Projeden Öğrendiklerim
 - Metastabiliteyi önlemek → 2 kademeli synchronizer ile buton/reset girişlerini senkronize etmek
